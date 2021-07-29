@@ -121,6 +121,17 @@ class Cat{
 }
 let cat1 = new Cat("Arabella", 5, "black");
 console.log(cat1.name);
+let cat = [];
+for(i=0;i<10;i++){
+  cat[i] = new Cat()
+}
+let catnames = ['john', 'paul', 'george', 'ringo', 'yourmom', 17, 'shawdowwarrior' , 8 ,9, 10]
+for(i=0;i<cat.length; i++){
+  cat[i].name = catnames[i]
+}
+for(i=0;i<cat.length;i++){
+  console.log(cat[i].name)
+}
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 /*
